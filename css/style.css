@@ -1,0 +1,43 @@
+*{
+    transition: 0.5s;
+}
+.aaa{
+    padding: 20px;
+    width: 310px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px dotted black;
+    margin-bottom: 30px;
+}
+.lion{
+    background-color: blanchedalmond;
+    border-color: brown;
+    color: brown;
+}
+.rabbit{
+    background-color: rgb(240, 240, 240);
+    border-color: gray;
+    color: rgb(103, 103, 103);
+}
+.wolf{
+    background-color: rgb(162, 162, 162);
+    border-color: black;
+}
+img{
+    width: 305px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+img:hover{
+    transform: scale(0.95);
+}
+.lion img{
+    border: 3px dotted brown;
+}
+.rabbit img{
+    border: 3px dotted gray;
+}
+.wolf img{
+    border: 3px dotted black;
+}
